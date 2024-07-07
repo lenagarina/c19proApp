@@ -1,0 +1,93 @@
+.cpro_table-container {
+  margin-top: 15px;
+
+  table {
+    width: 100%;
+    margin-bottom: 1rem;
+    vertical-align: top;
+    border: 1px solid rgb(222, 226, 230);
+  }
+
+  .table > thead {
+    vertical-align: bottom;
+    border-color: inherit;
+    border-style: solid;
+    border-width: 0;
+  }
+  .table tr th {
+    font-weight: 500;
+    font-size: 14px;
+    text-align: start;
+    color: $black;
+    padding: 0.5rem 0.5rem;
+  }
+
+  .table tr td {
+    color: $black;
+    padding: 0.5rem 0.5rem;
+  }
+
+  .table-striped > tbody > tr:nth-of-type(odd) > * {
+    background-color: $light-gray;
+    border-bottom: 1px solid rgb(222, 226, 230);
+    border-top: 1px solid rgb(222, 226, 230);
+  }
+}
+
+.textblock-style {
+  background-color: $light-gray;
+  h2 {
+    margin-top: 0px;
+    color: $black;
+  }
+  h4 {
+    color: $black;
+    margin-top: 5px;
+  }
+}
+
+.cpro_cell {
+  margin: 16px 10px;
+  padding: 10px;
+  border: 1px solid $black;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: $black;
+  h1 {
+    color: $black;
+  }
+  ion-icon {
+    color: $primary;
+    width: 20px;
+    height: 20px;
+    margin-bottom: -5px;
+    margin-left: 5px;
+  }
+}
+
+.contact-form-row-style {
+  margin-top: 10px;
+}
+
+.table tr {
+  td,
+  th {
+    font-size: 14px;
+    text-align: start;
+  }
+
+  th {
+    font-weight: 500;
+  }
+}
+
+.notice-title {
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .cpro_table-container {
+    overflow: auto;
+  }
+}
