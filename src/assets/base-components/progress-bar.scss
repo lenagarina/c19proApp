@@ -1,0 +1,28 @@
+#app {
+  .cpro_progress-bar {
+    font-weight: 600;
+    max-width: 80px;
+    border-radius: 5px;
+    overflow: hidden;
+    .progress-bar {
+      background-color: $primary;
+    }
+
+    .percentCalculaterNumber {
+      font-size: 10px;
+      padding-left: 2px;
+      margin-left: auto;
+      margin-right: auto;
+      color: $white;
+    }
+
+    &.cpro_progress-bar-invert {
+      .percentCalculaterNumber {
+        color: $black;
+        white-space: nowrap;
+      }
+
+      display: flex;
+    }
+  }
+}
